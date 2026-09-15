@@ -1,0 +1,6 @@
+* text=auto eol=lf
+*.pdf binary
+# Exact manifest snapshots remain unchanged through checkout normalization.
+MANIFEST.json -text
+verification/lean/lake-manifest.json -text
+output/pdf/qa-check.txt -text

@@ -1,0 +1,5 @@
+PASS: 18 nonempty PDF pages; all 36 equation tags, 19 reference entries and 27 reference/contact link targets extracted.
+PASS: all theorem/appendix headings, title/author/contact metadata, manuscript license, embedded vector fonts; no missing glyphs, overfull boxes or LaTeX warnings.
+PDF SHA-256: D6407E7F92C0AD315E56A9A896DFA6A7E3716B154BB3BD184CDFC7DAEB48BEA3
+Rendered pages: tmp/pdfs/d6407e7f92c0
+Visual review is separately required.

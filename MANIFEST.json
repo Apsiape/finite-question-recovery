@@ -1,0 +1,155 @@
+{
+  "snapshot_date": "2026-09-15",
+  "kind": "github-zenodo-staging",
+  "author": {
+    "name": "Seth Douglas",
+    "email": "seth.douglas@gmail.com"
+  },
+  "licenses": {
+    "manuscript": "CC-BY-4.0",
+    "code": "MIT"
+  },
+  "formalization": "PARTIAL",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 201,
+      "sha256": "5A90325AAC71C142FDAADA2E8E3E04F2425C16FD91087DD5E3EE73FEDD3D74A9"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 136,
+      "sha256": "3D9B5F963DA2EA950B6BD8F30E10E8A12705DCE915581BCE968BD00EAD9F0C88"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 703,
+      "sha256": "054B82CD89B7AFBBBA7C750353659AEF05E41F7F17129BE8F9927201F15824B0"
+    },
+    {
+      "path": "LICENSE.md",
+      "bytes": 1405,
+      "sha256": "AAA093417DA26852C2DFEDFA4842AA7CBDEC915D63C13EBA53A6D4B62A955CF5"
+    },
+    {
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "bytes": 17023,
+      "sha256": "D557539DF68E771CC1EEDCC91D13F70FCA930E508D11EEDCAFA4B15DB49E3744"
+    },
+    {
+      "path": "LICENSES/MIT.txt",
+      "bytes": 1069,
+      "sha256": "02BBF7576747AD70A81379176F165BFB572CCDE60130571552AB189C18788D8F"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2529,
+      "sha256": "85C3B61E1D3193E34EA80C8C10C1EF03F53C86CFA7931C370112FFB620AE3152"
+    },
+    {
+      "path": "REPRODUCIBILITY.md",
+      "bytes": 3967,
+      "sha256": "1D6BB3FC23CF260D4B4F930BB86AF25D555EE10BD6AE59EE2982908F47E246A6"
+    },
+    {
+      "path": "output/pdf/manuscript.pdf",
+      "bytes": 452840,
+      "sha256": "D6407E7F92C0AD315E56A9A896DFA6A7E3716B154BB3BD184CDFC7DAEB48BEA3"
+    },
+    {
+      "path": "output/pdf/qa-check.txt",
+      "bytes": 444,
+      "sha256": "EAF8361B12EE29FEE4D9B565B7F806DEBC21A3AD6E90D00C81B4252ECB2032E4"
+    },
+    {
+      "path": "paper/appendix-qubit.md",
+      "bytes": 6951,
+      "sha256": "CC0699FA6FA8DDEB0F54DE13C406680381529E688BD6888125A117BDCAD5E45E"
+    },
+    {
+      "path": "paper/latex/manuscript.tex",
+      "bytes": 56310,
+      "sha256": "544586F9BB2BD0D67A652A00973EEC015BAB6FD17BDFF50554715C45F1DF3B34"
+    },
+    {
+      "path": "paper/manuscript-complete.md",
+      "bytes": 54276,
+      "sha256": "28DC5B3B7AC611083BF56EF7CA02118F3DBF474E672F66A1AD159AF08E680AE2"
+    },
+    {
+      "path": "paper/manuscript.md",
+      "bytes": 47026,
+      "sha256": "4579F9F2E334309A5D71FE13C8CAA0FB6CBB9E7B85600249FC45DAFE64A3C7B7"
+    },
+    {
+      "path": "tools/build_manuscript.py",
+      "bytes": 1264,
+      "sha256": "B4E8C1C612C9868C2B8E17B04ED12B52DA83B85F98DDB54F970E0F5EAF092BE1"
+    },
+    {
+      "path": "tools/build_typeset.py",
+      "bytes": 7915,
+      "sha256": "8D1082ECFE070DB5885F4C9AFAD215F3542D593CF51E06E9453D2A824F3ED3E3"
+    },
+    {
+      "path": "tools/check_export.py",
+      "bytes": 5409,
+      "sha256": "765F35D4FF13155B8427BA6BB48A01D2E8CD49994EC6E167C78EBEAF0B2E761F"
+    },
+    {
+      "path": "tools/check_lean.py",
+      "bytes": 3935,
+      "sha256": "BD9B040A97989A5BE7C405BD93B8B2F21A57AA2885524D319CD058B3AE59B244"
+    },
+    {
+      "path": "tools/qa_pdf.py",
+      "bytes": 4330,
+      "sha256": "8D3D11523CC4C55FD3389DBF40AC0C7EC10545D31097C1CFAD02DED95BC036DC"
+    },
+    {
+      "path": "tools/test_check_lean.py",
+      "bytes": 1771,
+      "sha256": "11F502AE9D2E83C58C42C08BF59E3887F72AF5B402EC956844C2829AD9EC02EE"
+    },
+    {
+      "path": "verification/lean/COVERAGE.md",
+      "bytes": 4393,
+      "sha256": "D66E1BF30E127C17E0C22D8423ECBA077AA239555CCED5ED2DF6078E920F3AD7"
+    },
+    {
+      "path": "verification/lean/FiniteQuestionRecovery.lean",
+      "bytes": 10836,
+      "sha256": "34037364F260C88727D4676CBFF66C59F01F603CC5991C7C31D69C0C32DA247B"
+    },
+    {
+      "path": "verification/lean/kernel-check.txt",
+      "bytes": 1355,
+      "sha256": "EE5D059DCDE9FAA1D1704CB92477CE9E991BFA7D43008B2365579A8D9C8E129C"
+    },
+    {
+      "path": "verification/lean/lake-manifest.json",
+      "bytes": 3661,
+      "sha256": "3DEFF96C0474B05B2AE54318D4DA4D2B2FEF5B3B0083C78186F77B157198C9FB"
+    },
+    {
+      "path": "verification/lean/lakefile.toml",
+      "bytes": 262,
+      "sha256": "4C4C2439DD09887767C3FE9B31EFDC133899F58059B87180BAF9EEBBDA5C47B3"
+    },
+    {
+      "path": "verification/lean/lean-toolchain",
+      "bytes": 25,
+      "sha256": "54727EEC5CBA149C18842E6DEB5C41B369D66455C93CE135D7D5347C782B2325"
+    },
+    {
+      "path": "zenodo/README.md",
+      "bytes": 1232,
+      "sha256": "7DFD5D7C5832A79240A249480FE8FB9B3DF7B2D733391E591FAE570488F35BBE"
+    },
+    {
+      "path": "zenodo/metadata-template.json",
+      "bytes": 810,
+      "sha256": "6300E81F03D7296920C8BC47E0D6D9A32475006E82641809EBB3DDC964DB7402"
+    }
+  ]
+}

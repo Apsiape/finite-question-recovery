@@ -1,0 +1,10 @@
+{
+  "title": "Quantum recovery from finitely many sharp questions",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "creators": [
+    {"name": "Douglas, Seth"}
+  ],
+  "description": "Manuscript by Seth Douglas (seth.douglas@gmail.com) on quantitative recovery from finitely many calibrated sharp binary observables, including complete Appendix A and supplementary verification code. The manuscript is CC-BY-4.0; original code and software documentation are MIT-licensed. LICENSE.md specifies the separate file scopes. Lean coverage is partial: calibrated projections imply finite-word operator-norm stability; no numbered recovery theorem is fully formalized. Language models assisted exploration and checking; the author retains responsibility for the claims.",
+  "access_right": "open"
+}

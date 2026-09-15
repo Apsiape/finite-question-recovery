@@ -1,0 +1,16 @@
+'FiniteQuestionRecovery.reflection_defect_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FiniteQuestionRecovery.reflection_defect_norm_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FiniteQuestionRecovery.rectangular_reflection_defect_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'FiniteQuestionRecovery.rectangular_reflection_defect_norm_sq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'FiniteQuestionRecovery.reflection_norm_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FiniteQuestionRecovery.word_norm_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FiniteQuestionRecovery.word_stability' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FiniteQuestionRecovery.calibrated_reflection_words' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FiniteQuestionRecovery.projection_reflection_selfadjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FiniteQuestionRecovery.projection_reflection_involution' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FiniteQuestionRecovery.projection_compression_calibration' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FiniteQuestionRecovery.calibrated_projection_words' depends on axioms: [propext, Classical.choice, Quot.sound]
