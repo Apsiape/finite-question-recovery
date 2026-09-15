@@ -28,8 +28,8 @@
     },
     {
       "path": "CITATION.cff",
-      "bytes": 703,
-      "sha256": "054B82CD89B7AFBBBA7C750353659AEF05E41F7F17129BE8F9927201F15824B0"
+      "bytes": 949,
+      "sha256": "F507A3CB3CBB157CFFF5D08AAB17861E40D3E9D572D0084CE27EFDD166CCC9E5"
     },
     {
       "path": "LICENSE.md",
@@ -48,8 +48,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 2535,
-      "sha256": "AE3ADBC1827D20B507035C8DF4624F29E7ED50DB31CC5B79056D42A75C53E1B6"
+      "bytes": 2790,
+      "sha256": "D43C109191A4AC4C29FC6EC2944C8BB858346D59C81C9417217A191E0437351D"
     },
     {
       "path": "REPRODUCIBILITY.md",
@@ -98,8 +98,8 @@
     },
     {
       "path": "tools/check_export.py",
-      "bytes": 5724,
-      "sha256": "503B0D26C60DB166FEA52C47E1AAE6033B946CCEBD3505E43598AEA338880775"
+      "bytes": 5907,
+      "sha256": "0157E995A372D67ECD496D579C379F594DD2871B749672E32CCAD623AE8B355A"
     },
     {
       "path": "tools/check_lean.py",

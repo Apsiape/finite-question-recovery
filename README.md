@@ -41,8 +41,12 @@ is fully formalized. Read the [coverage matrix](verification/lean/COVERAGE.md).
 
 Suggested citation: Seth Douglas, *Quantum recovery from finitely many sharp
 questions*, manuscript, 2026. Machine-readable metadata is provided in
-[CITATION.cff](CITATION.cff). The initial public release is version 1.0.0;
-its DOI will be added after assignment. [Zenodo metadata guidance](zenodo/README.md)
+[CITATION.cff](CITATION.cff). Version 1.0.0 is archived as
+[doi:10.5281/zenodo.22779671](https://doi.org/10.5281/zenodo.22779671).
+The [GitHub release](https://github.com/Apsiape/finite-question-recovery/releases/tag/v1.0.0)
+also provides the PDF directly. The release archive is immutable; subsequent
+citation-only updates on main do not change that deposited version.
+[Zenodo metadata guidance](zenodo/README.md)
 explains the preprint classification and scoped mixed-license description.
 
 The manuscript is **CC BY 4.0**; original code and accompanying software

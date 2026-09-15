@@ -50,7 +50,9 @@ def main():
     assert citation['preferred-citation']['authors'] == author
     assert citation['title'] == citation['preferred-citation']['title'] == main_text.splitlines()[0][2:]
     assert citation['license'] == ['CC-BY-4.0', 'MIT']
-    assert not ({'doi', 'version', 'date-released', 'url', 'repository-code'} & citation.keys())
+    assert citation['doi'] == citation['preferred-citation']['doi'] == '10.5281/zenodo.22779671'
+    assert citation['version'] == citation['preferred-citation']['version'] == '1.0.0'
+    assert citation['repository-code'] == 'https://github.com/Apsiape/finite-question-recovery'
     release = json.loads((ROOT / '.zenodo.json').read_text(encoding='utf-8'))
     assert release['license'] == 'other-open'
     assert release['title'] == citation['title']
