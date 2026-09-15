@@ -41,9 +41,9 @@ is fully formalized. Read the [coverage matrix](verification/lean/COVERAGE.md).
 
 Suggested citation: Seth Douglas, *Quantum recovery from finitely many sharp
 questions*, manuscript, 2026. Machine-readable metadata is provided in
-[CITATION.cff](CITATION.cff). No DOI or numbered release version is assigned
-in this snapshot. [Zenodo metadata guidance](zenodo/README.md) provides a
-manuscript-preprint template and the required manual mixed-license selection.
+[CITATION.cff](CITATION.cff). The initial public release is version 1.0.0;
+its DOI will be added after assignment. [Zenodo metadata guidance](zenodo/README.md)
+explains the preprint classification and scoped mixed-license description.
 
 The manuscript is **CC BY 4.0**; original code and accompanying software
 documentation are **MIT**. See [LICENSE.md](LICENSE.md) for exact file scope

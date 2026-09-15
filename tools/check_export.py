@@ -51,7 +51,12 @@ def main():
     assert citation['title'] == citation['preferred-citation']['title'] == main_text.splitlines()[0][2:]
     assert citation['license'] == ['CC-BY-4.0', 'MIT']
     assert not ({'doi', 'version', 'date-released', 'url', 'repository-code'} & citation.keys())
-    assert not (ROOT / '.zenodo.json').exists(), 'Blanket auto-import license metadata is not shipped'
+    release = json.loads((ROOT / '.zenodo.json').read_text(encoding='utf-8'))
+    assert release['license'] == 'other-open'
+    assert release['title'] == citation['title']
+    assert release['creators'] == [{'name': 'Douglas, Seth'}]
+    assert release['upload_type'] == 'publication' and release['publication_type'] == 'preprint'
+    assert all(term in release['description'] for term in ['CC-BY-4.0', 'MIT', 'partial'])
     zenodo = json.loads((ROOT / 'zenodo/metadata-template.json').read_text(encoding='utf-8'))
     assert zenodo['upload_type'] == 'publication' and zenodo['publication_type'] == 'preprint'
     assert zenodo['title'] == citation['title']
@@ -60,7 +65,7 @@ def main():
     assert 'MIT' in zenodo['description'] and 'partial' in zenodo['description']
     assert not ({'doi', 'version', 'publication_date', 'related_identifiers'} & zenodo.keys())
     guidance = (ROOT / 'zenodo/README.md').read_text(encoding='utf-8')
-    assert 'CC-BY-4.0' in guidance and 'MIT' in guidance and 'Before publishing' in guidance
+    assert 'CC-BY-4.0' in guidance and 'MIT' in guidance and 'Other (Open)' in guidance
     for name in expected:
         path = ROOT / name
         if path.suffix in {'.md', '.py', '.tex', '.lean', '.json', '.cff', '.toml', '.txt'}:

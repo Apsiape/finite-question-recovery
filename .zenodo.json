@@ -1,0 +1,12 @@
+{
+  "title": "Quantum recovery from finitely many sharp questions",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "creators": [{"name": "Douglas, Seth"}],
+  "description": "<p>Preprint by Seth Douglas (seth.douglas@gmail.com) on quantitative recovery from finitely many calibrated sharp binary observables, with complete Appendix A and reproducibility materials.</p><p><strong>Scoped licenses:</strong> the manuscript, PDF and TeX are licensed under Creative Commons Attribution 4.0 International (CC-BY-4.0). Original code and accompanying software documentation are MIT-licensed. These are separate file-specific licenses, not a choice of license for every file. See LICENSE.md and LICENSES/ in the archive. The aggregate Other (Open) category represents this mixed-license package.</p><p>Lean coverage is partial: calibrated projections imply finite-word operator-norm stability; no numbered recovery theorem is fully formalized. Language models assisted exploration and checking; the author retains responsibility for the claims.</p>",
+  "license": "other-open",
+  "access_right": "open",
+  "version": "1.0.0",
+  "keywords": ["quantum information", "quantum recovery", "sharp observables", "quantum error correction"],
+  "notes": "CC-BY-4.0 applies to the manuscript; MIT applies to original code and software documentation. LICENSE.md specifies the scopes. No affiliation or ORCID is asserted."
+}

@@ -22,6 +22,11 @@
       "sha256": "3D9B5F963DA2EA950B6BD8F30E10E8A12705DCE915581BCE968BD00EAD9F0C88"
     },
     {
+      "path": ".zenodo.json",
+      "bytes": 1424,
+      "sha256": "1BA400000A0E6C01429F792E03D74A04C78840048D4569FAC2EBDF2F32485652"
+    },
+    {
       "path": "CITATION.cff",
       "bytes": 703,
       "sha256": "054B82CD89B7AFBBBA7C750353659AEF05E41F7F17129BE8F9927201F15824B0"
@@ -43,8 +48,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 2529,
-      "sha256": "85C3B61E1D3193E34EA80C8C10C1EF03F53C86CFA7931C370112FFB620AE3152"
+      "bytes": 2535,
+      "sha256": "AE3ADBC1827D20B507035C8DF4624F29E7ED50DB31CC5B79056D42A75C53E1B6"
     },
     {
       "path": "REPRODUCIBILITY.md",
@@ -93,8 +98,8 @@
     },
     {
       "path": "tools/check_export.py",
-      "bytes": 5409,
-      "sha256": "765F35D4FF13155B8427BA6BB48A01D2E8CD49994EC6E167C78EBEAF0B2E761F"
+      "bytes": 5724,
+      "sha256": "503B0D26C60DB166FEA52C47E1AAE6033B946CCEBD3505E43598AEA338880775"
     },
     {
       "path": "tools/check_lean.py",
@@ -143,8 +148,8 @@
     },
     {
       "path": "zenodo/README.md",
-      "bytes": 1232,
-      "sha256": "7DFD5D7C5832A79240A249480FE8FB9B3DF7B2D733391E591FAE570488F35BBE"
+      "bytes": 1059,
+      "sha256": "1C1AADCBE5CB1B854DCAB303D9B7E949EFA0CDC165E584D7059E70FF29B6B11C"
     },
     {
       "path": "zenodo/metadata-template.json",
